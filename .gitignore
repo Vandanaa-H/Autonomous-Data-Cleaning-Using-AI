@@ -1,0 +1,125 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/
+outputs/
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+context.md.txt
+FINAL_STATUS.md
+PRODUCTION_FEATURES_COMPLETE.md
+SYSTEM_COMPLETE.py
+
+# Google Cloud credentials
+*.json
+!sample_data.json
+
+# Docker
+.dockerignore
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Model files
+*.pkl
+*.joblib
+*.model
+
+# Large data files
+*.csv
+!data/sample/*.csv
+*.xlsx
+*.parquet
+
+# Development files to exclude
+test_*.py
+create_sample_data.py
+deploy.py
+start.py
+run.bat
+setup.bat
+start_system.bat
+messy_employee_dataset.csv
+
+# Alternative app versions (keep only main ones)
+frontend/app.py
+frontend/autonomous_app.py
+frontend/clean_professional_app.py
+frontend/demo_app.py
+frontend/enterprise_app.py
+frontend/professional_app.py
+frontend/simple_app.py
+backend/simple_api.py
+backend/simple_main.py
+backend/start_backend.py

@@ -1,0 +1,16 @@
+name,age,salary,department,email,start_date
+John Doe,28,50000,Engineering,john.doe@company.com,2020-01-15
+Jane Smith,32,65000,Marketing,jane.smith@company.com,2019-03-22
+Bob Johnson,,75000,Engineering,bob.johnson@company.com,2018-07-08
+Alice Brown,29,55000,Sales,alice.brown@company.com,2021-02-10
+Charlie Wilson,35,NULL,Marketing,charlie.wilson@company.com,2017-11-30
+Diana Davis,31,70000,Engineering,,2020-06-18
+Eva Garcia,27,48000,Sales,eva.garcia@company.com,2022-01-05
+Frank Miller,33,NULL,Engineering,frank.miller@company.com,2019-09-12
+Grace Lee,26,52000,Marketing,grace.lee@company.com,2021-08-20
+Henry Taylor,34,68000,Sales,henry.taylor@company.com,2018-12-03
+John Doe,28,50000,Engineering,john.doe@company.com,2020-01-15
+Irene Clark,30,60000,Marketing,irene.clark@company.com,2020-04-07
+Jack White,29,150000,Engineering,jack.white@company.com,2019-11-25
+Kate Green,31,58000,Sales,kate.green@company.com,2021-06-14
+Leo Black,28,62000,Marketing,leo.black@company.com,2020-10-09
