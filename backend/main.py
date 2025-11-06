@@ -37,6 +37,14 @@ app.include_router(clean.router, prefix="/api/v1", tags=["clean"])
 app.include_router(download.router, prefix="/api/v1", tags=["download"])
 app.include_router(report.router, prefix="/api/v1", tags=["report"])
 
+# Also include routers without prefix for direct access
+app.include_router(upload.router, tags=["upload-direct"])
+app.include_router(profile.router, tags=["profile-direct"])
+app.include_router(clean.router, tags=["clean-direct"])
+app.include_router(download.router, tags=["download-direct"])
+app.include_router(report.router, tags=["report-direct"])
+
+
 @app.get("/")
 async def root():
     """Health check endpoint"""
@@ -45,6 +53,7 @@ async def root():
         "version": "1.0.0",
         "status": "healthy"
     }
+
 
 @app.get("/health")
 async def health_check():
